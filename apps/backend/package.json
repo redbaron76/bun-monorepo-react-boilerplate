@@ -11,9 +11,10 @@
     "db:seed": "bunx prisma db seed"
   },
   "dependencies": {
-    "@elysiajs/jwt": "^1.2.0",
+    "@elysiajs/jwt": "^1.4.2",
+    "@elysia/openapi": "^1.4.15",
     "@prisma/client": "^6.5.0",
-    "elysia": "^1.2.0"
+    "elysia": "^1.4.28"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",
